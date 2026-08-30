@@ -10,8 +10,8 @@ server.listen(process.env.PORT || 3000);
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'CGS_SMP.aternos.me:24749', // <-- CHANGE THIS TO YOUR ATERNOS IP
-        port: 25565,
+        host: 'CGS_SMP.aternos.me', // <-- CHANGE THIS TO YOUR ATERNOS IP
+        port: 24749,
         username: 'AFK_Bot',
         version: false
     });
