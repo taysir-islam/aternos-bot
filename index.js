@@ -13,7 +13,7 @@ function createBot() {
         host: 'CGS_SMP.aternos.me', // <-- CHANGE THIS TO YOUR ATERNOS IP
         port: 24749,
         username: 'AFK_Bot',
-        version: false
+        version: '1.20.4'
     });
 
     bot.on('spawn', () => {
